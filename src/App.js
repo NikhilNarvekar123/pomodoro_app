@@ -1,6 +1,7 @@
 import {useState} from 'react';
-import './App.css';
-import Timer from './Timer.js';
+import './styles/App.css';
+import Pomodoro from './components/Pomodoro.js'
+import Ivy from './components/Ivy.js'
 
 function App() {
   
@@ -9,19 +10,9 @@ function App() {
   
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <h1> Pomodoro Timer </h1>
-
-        <h3>
-          Settings
-        </h3>
-
-        <div>
-          <Timer/>
-        </div>
-
-      
+      <header className="App-header">       
+        <Ivy/>
+        <Pomodoro/>
       </header>
     </div>
   );

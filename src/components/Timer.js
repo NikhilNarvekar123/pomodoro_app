@@ -1,7 +1,6 @@
 
 import {useEffect, useState} from 'react';
-import './Timer.css'
-
+import '../styles/Timer.css'
 
 
 function changeTime() {
